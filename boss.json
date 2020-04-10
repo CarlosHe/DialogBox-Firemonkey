@@ -1,0 +1,11 @@
+{
+	"name": "DialogBox",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/carloshe/firemonkey-material-design": "^0.0.5"
+	}
+}

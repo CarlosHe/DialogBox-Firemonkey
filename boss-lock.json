@@ -1,0 +1,40 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2019-08-13T10:04:04.923633-03:00",
+	"installedModules": {
+		"github.com/carloshe/firemonkey-material-design": {
+			"name": "firemonkey-material-design",
+			"version": "0.0.5",
+			"hash": "610f4becdf706ee4e977f85c3a7b6cea",
+			"artifacts": {
+				"dcp": [
+					"MaterialDesign.bpi",
+					"MaterialDesign.dcp",
+					"MaterialDesign.lib"
+				],
+				"dcu": [
+					"FMX.MDAutocompleteEdit.Style.dcu",
+					"FMX.MDEdit.Style.dcu",
+					"MD.Buttons.dcu",
+					"MD.Cards.dcu",
+					"MD.Checkbox.dcu",
+					"MD.Classes.dcu",
+					"MD.ColorListBox.dcu",
+					"MD.ColorPalette.dcu",
+					"MD.Editors.dcu",
+					"MD.Input.dcu",
+					"MD.Layouts.dcu",
+					"MD.Opacitys.dcu",
+					"MD.Reg.dcu",
+					"MD.TextFields.dcu",
+					"MD.Themes.dcu"
+				],
+				"bpl": [
+					"MaterialDesign.bpl"
+				]
+			},
+			"failed": false,
+			"changed": false
+		}
+	}
+}

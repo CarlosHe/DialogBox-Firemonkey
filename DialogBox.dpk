@@ -1,0 +1,45 @@
+package DialogBox;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  MaterialDesign;
+
+contains
+  Material.DialogBox in 'Material.DialogBox.pas',
+  Material.DialogBoxText in 'Material.DialogBoxText.pas',
+  Material.DialogBox.Types in 'Types\Material.DialogBox.Types.pas',
+  Material.Controls.DialogBox in 'Controls\Material.Controls.DialogBox.pas',
+  Material.Controls.Scrim in 'Controls\Material.Controls.Scrim.pas',
+  Material.Contracts.Container.TextBox in 'Contracts\Material.Contracts.Container.TextBox.pas',
+  Material.Contracts.DialogBox in 'Contracts\Material.Contracts.DialogBox.pas',
+  Material.Contracts.DialogContainer in 'Contracts\Material.Contracts.DialogContainer.pas',
+  Material.Container.TextBox in 'Containers\Material.Container.TextBox.pas';
+
+end.

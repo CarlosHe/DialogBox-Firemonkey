@@ -1,0 +1,1 @@
+Example: TDialogBoxText.Open('Teste', 'Message');
